@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* *{
+            font-family:BabasNeue;
+        }
+       
+        @font-face {
+            font-family:BabasNeue;
+            src: url(assets/bebas_neue/BebasNeue-Regular.ttf);
+        } */
+
+        .container{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .quiz{
+            border: 1px solid black;
+            width: 500px;
+            padding: 15px 0px 15px 20px;
+            border-radius: 5px;
+            border: 1px solid rgb(245, 245, 245);
+    
+    
+    box-shadow: 0px 2px 24px 0px rgba(249, 249, 249, 0.75);
+    -webkit-box-shadow: 0px 2px 24px 0px rgba(6, 6, 6, 0.75);
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .btn{
+            display: block;
+            margin: auto;
+            height: 35px;
+            background-color: #2196f3;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid rgb(245, 245, 245);
+   
+    
+    box-shadow: 0px 2px 24px 0px rgba(249, 249, 249, 0.75);
+    -webkit-box-shadow: 0px 2px 24px 0px rgba(6, 6, 6, 0.75);
+            
+        }
+        
+        .btn:hover{
+            background-color: red;
+            color: white;
+            
+        }
+          
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form  class="quiz"  action="">
+        <h1><strong>Simple Quiz</strong></h1>
+        <p>
+          <label for="">What is the capital of France?</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Berlin</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Madrid</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Paris</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Rome</label>
+        </p>
+        <p>
+          <label for="">Which planet is known as the Red Planet?</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Earth</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Mars</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Jupiter</label><br />
+          <input type="radio" name="capital" value="1" id="" />
+          <label for="">Venus</label>
+        </p>
+        <label for="">What is the largest ocean on Earth?</label><br />
+        <input type="radio" name="capital" value="1" id="" />
+        <label for="">Atlantic Ocean</label><br />
+        <input type="radio" name="capital" value="1" id="" />
+        <label for="">Indian Ocean</label><br />
+        <input type="radio" name="capital" value="1" id="" />
+        <label for="">Artic Ocean</label><br />
+        <input type="radio" name="capital" value="1" id="" />
+        <label for="">Pacific Ocean</label>
+        </p>
+        <button class="btn">Submit Quiz</button>
+      </form>
+    </div>
+  </body>
+</html>
